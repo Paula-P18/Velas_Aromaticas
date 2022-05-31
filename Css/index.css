@@ -118,19 +118,20 @@ p{
    
 }
 
-    p{ 
-        animation-duration: 3s;
-        animation-name: slidein; }
-      @keyframes slidein {
-        from {
-          margin-left: 100%;
-          width: 300%;
-        }
-      to {
-          margin-left: 0%;
-          width: 100%;
-        }
-      } 
+p{
+    width: 300px;
+    height: 200px;
+    background: rgb(200, 233, 241);
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color: rgb(200, 233, 241);}
+    to {background-color: rgb(245, 190, 218);}
+  }  
+    
+           
+        
 
 
 ul li{
