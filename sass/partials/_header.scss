@@ -1,0 +1,18 @@
+header {
+    background-image: url(../Pages/fondo4.jpgS);
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+
+}
+
+nav {
+    background-color: var(--base);
+    display: grid;
+    grid-template-columns: 5fr;
+    justify-items: end;
+}
