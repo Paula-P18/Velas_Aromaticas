@@ -1,18 +1,18 @@
-header {
-    background-image: url(../Pages/fondo4.jpgS);
 
+.div_logo{
+    position: absolute;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-    width: 60px;
+.logo {position: absolute;
+    width: 90px;
 
 }
 
 nav {
-    background-color: var(--base);
-    display: grid;
-    grid-template-columns: 5fr;
-    justify-items: end;
+    background-color: #E7D8C9;
+    display: flex;
+    height: 90px;
+    flex-direction: row-reverse;
+    align-items: center;
 }
+

@@ -34,7 +34,7 @@ body {
 }
 
 header {
-    background-image: url(../Pages/fondo4.jpgS);
+    background-image: url(../Pages/fondo3.jpg);
 
 }
 
@@ -82,7 +82,21 @@ nav {
     display: flex;
     align-items: center;
 }
-
+h1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; }
+h2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center; }
+h3{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center; }
 .centrado {
     position: absolute;
     top: 50px;
@@ -136,7 +150,8 @@ nav {
     gap: 10px;
     justify-content: center;
 }
-
+.contenedora_img{
+    text-align: center; }
 p {
     display: inline;
     border-bottom: 1px solid rgb(220, 171, 245);
@@ -196,6 +211,12 @@ ul li {
     justify-items: center;
 
 }
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 footer {
     bottom: 0;

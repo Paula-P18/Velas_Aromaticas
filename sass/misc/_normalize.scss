@@ -12,11 +12,40 @@ html {
 }
 
 body {
+    background-color: #E6BEAE;
     display: flex;
     flex-direction: column;
-    background-image: url(../Pages/fondo3.jpg);
     text-decoration: none;
     min-height: 100%;
     grid-template-rows: auto 1fr auto;
+   
 
+}
+
+.section {
+    background-color: rgb(179, 155, 235);
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 25px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+&__quien {
+    display: grid;
+    justify-content: center;
+}
+&__span {
+    font-size: 60px;
+    width: 100px;
+    background-color: rgb(214, 245, 189);
+} }
+@mixin p ($text-color,$font-second) {
+    @extend %p;
+background: $font-second;
+colo:$text-color
 }
