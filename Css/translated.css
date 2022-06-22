@@ -8,9 +8,10 @@ html {
   height: 100%; }
 
 body {
-  background-color: #E6BEAE;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  background-color: #E6BEAE;
   min-height: 100vh; }
 
 .section {
@@ -33,14 +34,57 @@ body {
     width: 100px;
     background-color: #d6f5bd; }
 
+@media screen and (max-width: 1200px) {
+  .img {
+    width: 300px; }
+    .img__contenedora {
+      display: grid;
+      grid-template-columns: 1fr; }
+    .img__p {
+      display: none; }
+    .img__centro {
+      width: 300px; }
+  .picture {
+    width: 300px; } }
+
+@media screen and (max-width: 375px) {
+  .logo {
+    width: 300px; }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; }
+  .contenedor {
+    height: 66vh;
+    display: flex;
+    justify-content: center; }
+  .img {
+    width: 300px; }
+    .img__contenedora {
+      display: grid;
+      grid-template-columns: 1fr; }
+    .img__p {
+      display: none; }
+    .img__centro {
+      width: 300px; }
+  .picture {
+    width: 300px; } }
+
 .header {
   height: 500px; }
 
 .logo {
   width: 50px; }
 
+:root {
+  --bs-body-font-size: 1,75rem; }
+
 .contenedor {
-  height: 100vh;
   display: flex;
   justify-content: center; }
 
@@ -48,6 +92,8 @@ body {
   flex-direction: column; }
 
 footer {
+  grid-column: 1/-1;
+  margin-top: auto;
   bottom: 0;
   left: 0;
   right: 0;
@@ -101,7 +147,7 @@ footer {
   align-items: center; }
 
 .form {
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column; }
@@ -133,9 +179,18 @@ h2 {
   align-items: center; }
 
 .d-block {
-  width: 300px;
-  height: 500px;
+  width: 600px;
+  height: 300px;
   justify-content: center; }
+
+.carousel-inner {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 200px; }
+
+.rounded {
+  margin-top: 50px;
+  width: 800px; }
 
 h2 {
   display: flex;

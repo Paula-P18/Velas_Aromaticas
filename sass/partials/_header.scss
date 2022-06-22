@@ -5,8 +5,11 @@
 .logo {
     width: 50px;
 }
+:root{
+    --bs-body-font-size: 1,75rem;
+}
 .contenedor {
-    height: 100vh;
+    
     display: flex;
     justify-content: center;
 }
