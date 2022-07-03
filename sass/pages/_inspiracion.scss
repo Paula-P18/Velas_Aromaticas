@@ -13,3 +13,10 @@
     margin-top: 50px;
     width: 800px;
 }
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    --bs-card-bg:#E6BEAE ;
+    margin-bottom: 15px;
+}

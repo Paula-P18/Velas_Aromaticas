@@ -75,11 +75,14 @@ body {
   .picture {
     width: 300px; } }
 
+.animate__animated.animate__bounce {
+  --animate-duration: 2s; }
+
 .header {
   height: 500px; }
 
 .logo {
-  width: 50px; }
+  width: 60px; }
 
 :root {
   --bs-body-font-size: 1,75rem; }
@@ -159,6 +162,9 @@ footer {
   justify-content: center;
   flex-wrap: wrap; }
 
+.card-img-top, .card-img-bottom {
+  width: 50%; }
+
 .cards {
   display: flex;
   flex-direction: column;
@@ -192,7 +198,15 @@ h2 {
   margin-top: 50px;
   width: 800px; }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  --bs-card-bg:#E6BEAE ;
+  margin-bottom: 15px; }
+
 h2 {
+  font-family: "Merienda script=latin rev=2";
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -200,6 +214,22 @@ h2 {
 
 .contenedora_img {
   text-align: center; }
+
+.card-body {
+  background-color: #fcecf5; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); }
+  .galeria__item {
+    margin-bottom: 10px; }
+  .galeria__img {
+    margin: 5px 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-style: groove;
+    border-color: #d8bdf1; }
 
 .titulo {
   display: flex;
@@ -211,19 +241,16 @@ h2 {
     position: relative;
     height: 100px;
     width: 200px; }
-  .titulo__slogan {
-    font-family: Arial, Helvetica, sans-serif;
-    left: 50%;
-    position: absolute;
-    top: 50%; }
 
 h1 {
+  font-family: 'Neuton', serif;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center; }
 
 h3 {
+  font-family: "Merienda script=latin rev=2";
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
